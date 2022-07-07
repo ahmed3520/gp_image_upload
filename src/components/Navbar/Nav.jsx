@@ -22,7 +22,7 @@ const Nav = () => {
 
 
             <div class="header-logo">
-                <a href="//"><img src="/parkinson/logo2.png" className='nav-img' style={{width:'70px', height:'70px', marginTop:'10px'}} alt=""/></a>
+                <a href="/"><img src="/parkinson/logo2.png" className='nav-img' style={{width:'70px', height:'70px', marginTop:'10px'}} alt=""/></a>
            <p>Parkinson's detector</p>
             </div>
 
@@ -84,7 +84,7 @@ const Nav = () => {
     <div class="offcanvas-header">
 
         <div class="offcanvas-logo">
-            <a href="index-2.html"><img src="/parkinson/logo2.png" alt=""/></a>
+            <a href="/"><img src="/parkinson/logo2.png" alt=""/></a>
         </div>
    
         <button class="btn-close" data-bs-dismiss="offcanvas"></button>
