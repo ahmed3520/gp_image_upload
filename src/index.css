@@ -122,3 +122,8 @@ a b{
     height: 80px;
   }
 }
+@media only screen and (max-width: 767px){
+  .img-p{
+    height: 280px !important;
+  }
+}
