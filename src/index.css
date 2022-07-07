@@ -7,3 +7,109 @@
     --tw-bg-opacity: 1;
     background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
   }
+  .ReactModal__Content{
+    width: 40%;
+    height: 50%;
+    margin: auto;
+  }
+
+
+  .loader {
+    border-top-color: #3498db;
+    -webkit-animation: spinner 1.5s linear infinite;
+    animation: spinner 1.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .ReactModal__Content {
+    border: unset;
+  }
+  .con p{
+    font-family: 'MarkOT-Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    margin: 0 0 20px;
+  color: #333;
+
+  }
+b, strong {
+  color: #333;
+    font-weight: 700;
+}
+.con ul{
+  color: #333;
+  
+    list-style: disc;
+    margin: 0;
+    line-height: 1.5;
+    padding: 0 0 20px 2.5em;
+}
+.con ul li{
+  margin: 3px 0;
+}
+.pg-title{
+  font-size: 36px;
+  text-align: left;
+  margin: 0 0 1em 0;
+  color: #3bbca7;
+}
+.con h2{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: 'MarkOT-Heavy';
+  font-style: normal;
+  font-weight: 900;
+}
+.con a:link, .innerContent a:visited  {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #3bbca7;
+    margin-left: 5px;
+}
+a b{
+  color: #3bbca7 !important;
+}
+@media only screen and (max-width: 767px) {
+  .cont-im{
+    flex-direction: column;
+  }
+  .py-20{
+    padding-bottom: 0px;
+  }
+  .img-uploader{
+    margin-top: 0px !important;
+  }
+  .img-p{
+    width: 100% !important;
+    max-height:400px ;
+  }
+  .mid{
+    width: 100% !important;
+    padding: 0.3rem;
+  }
+  .le{
+    width: 0px !important;
+  }
+  .pg-title{
+    margin-bottom: .5rem;
+  }
+}

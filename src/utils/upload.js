@@ -1,9 +1,9 @@
 import {ref,uploadBytes, uploadBytesResumable} from 'firebase/storage'
 import { storage } from '../config/firebase';
-const onUploadFiles = async(file, title,setButtonStatus) => {
-    console.log(file) // FileList ? https://developer.mozilla.org/en-US/docs/Web/API/FileList
-    const storageRef = ref(storage, `testing/${title}`);
-    const uploadTask =  uploadBytesResumable(storageRef, file)
+const onUploadFiles = async(file) => {
+    console.log("file=>>>",file) // FileList ? https://developer.mozilla.org/en-US/docs/Web/API/FileList
+    const storageRef = ref(storage, `testing/${file[0].name}`);
+    const uploadTask =  uploadBytesResumable(storageRef, file[0])
     uploadTask.on('state_changed',
     (snapshot) => {
       // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
@@ -39,7 +39,7 @@ const onUploadFiles = async(file, title,setButtonStatus) => {
     }, 
     () => {
         console.log('done')
-        setButtonStatus(true)
+   
       // Upload completed successfully, now we can get the download URL
     })
     
