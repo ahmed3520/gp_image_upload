@@ -126,4 +126,7 @@ a b{
   .img-p{
     height: 230px !important;
   }
+  .p-4{
+    padding: 0px !important;
+  }
 }
