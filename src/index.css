@@ -129,4 +129,10 @@ a b{
   .p-4{
     padding: 0px !important;
   }
+  .ReactModal__Content{
+    width: 95%;
+  }
+  .w-1\/3{
+    width: 100%;
+  }
 }
