@@ -118,4 +118,7 @@ a b{
   .header{
     max-height: 80px !important;
   }
+  .header-wrapper{
+    height: 80px;
+  }
 }
