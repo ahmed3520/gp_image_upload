@@ -54,7 +54,7 @@ export default class MultipleImageUploadComponent extends Component {
   
     uploadFiles(e) {
         e.preventDefault()
-        this.onUploadFiles(this.fileObj)
+       // this.onUploadFiles(this.fileObj)
         console.log(this.state.file,"===>", this.fileObj)
         this.setState({loading:true, openModel:true})
         console.log('up=>',this.fileObj[0][0].name)
