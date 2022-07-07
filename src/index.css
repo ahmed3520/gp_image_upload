@@ -112,4 +112,10 @@ a b{
   .pg-title{
     margin-bottom: .5rem;
   }
+  .nav-img{
+    margin-top: 0px;
+  }
+  .header{
+    max-height: 80px !important;
+  }
 }

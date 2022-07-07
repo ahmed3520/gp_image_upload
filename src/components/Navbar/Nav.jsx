@@ -22,7 +22,7 @@ const Nav = () => {
 
 
             <div class="header-logo">
-                <a href="index-2.html"><img src="/parkinson/logo2.png" style={{width:'70px', height:'70px', marginTop:'10px'}} alt=""/></a>
+                <a href="//"><img src="/parkinson/logo2.png" className='nav-img' style={{width:'70px', height:'70px', marginTop:'10px'}} alt=""/></a>
            <p>Parkinson's detector</p>
             </div>
 
