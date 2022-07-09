@@ -40,7 +40,7 @@ export default class MultipleImageUploadComponent extends Component {
       formData.append("image", file, file.name);
       
       getInstance()
-        .post(`https://goldfish-app-4bxyf.ondigitalocean.app/flask-par-ser2/up_image`, formData)
+        .post(`https://lit-brook-35752.herokuapp.com/up_image`, formData)
         .then((response) => {
           this.setState({userRes:response.data.prediction, loading:false})
           this.fileArray=[]
